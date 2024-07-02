@@ -146,12 +146,14 @@ input[type="submit"]:focus {
   margin-left: 15px;
 }
 
+/* Displays the  grid in work page */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
+/* Adds background color to  grid items and makes the text to center in work page */
 .grid__item {
   padding: 20px;
   text-align: center;
@@ -160,11 +162,13 @@ input[type="submit"]:focus {
   transition: transform 0.3s, background-color 0.3s;
 }
 
+/* changes the pointer to hand pointer when  hovered over grid item in work page */
 .grid__item:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
+/* Makes the content in aboutpage,workpage,contactpage to the center */
 .about-description,
 .work-profile,
 .contact-details {
@@ -211,6 +215,7 @@ input[type="submit"]:focus {
   animation-timing-function: linear;
 }
 
+/* Adjusts the grid according to screen sizes */
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -224,6 +229,7 @@ input[type="submit"]:focus {
   }
 }
 
+/* Adjusts the grid according to screen sizes */
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
