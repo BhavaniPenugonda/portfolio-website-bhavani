@@ -1,0 +1,279 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #370e19;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #a52a2a;
+}
+
+a {
+  color: #00f;
+}
+
+a:visited {
+  /* visited link */
+  color: #800080;
+}
+
+a:hover {
+  color: #576405;
+
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+
+a:focus {
+  color: #576405;
+
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+
+a:active {
+  /* selected link */
+  color: #008000;
+}
+
+button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+
+  /* takes the font from the outer container */
+  font-family: inherit;
+
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #7b5d35;
+  color: #fff;
+  text-decoration: none;
+
+  /* adds spacing to the button  */
+  padding: 10px;
+  border-radius: 3px;
+
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+.cv-button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+
+  /* takes the font from the outer container */
+  font-family: inherit;
+
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #7b5d35;
+  color: #fff;
+  text-decoration: none;
+
+  /* adds spacing to the button  */
+  padding: 10px;
+  border-radius: 3px;
+
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+input[type="submit"] {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+
+  /* takes the font from the outer container */
+  font-family: inherit;
+
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #7b5d35;
+  color: #fff;
+  text-decoration: none;
+
+  /* adds spacing to the button  */
+  padding: 10px;
+  border-radius: 3px;
+
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+button :focus,
+button :hover,
+.cv-button:focus,
+.cv-button:hover,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+
+.navigation-list__item--active {
+  text-decoration: none;
+}
+
+.profile_portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50px;
+}
+
+.page_footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.page-header__item {
+  flex: 0 1 200px;
+  height: 50px;
+}
+
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid__item {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #d3d3d3;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.grid__item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.about-description,
+.work-profile {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@keyframes color-change {
+  from {
+    fill: #fab755;
+  }
+
+  to {
+    fill: #ee3953;
+  }
+}
+
+/* animates the html-icon color */
+.html-icon {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+/* animates the cloud in linear */
+.cloud {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Adjusts the grid according to screen sizes */
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
