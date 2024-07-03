@@ -13,7 +13,7 @@
   --a-hover-color: #576405;
   --a-active-color: #008000;
   --input-bg-color: #7b5d35;
-  --button-color: #fff;
+  --button-txt-color: #fff;
   ---grid-item-bgcolor: #d3d3d3;
   --h2-color: #a52a2a;
 }
@@ -68,7 +68,7 @@ input[type="submit"] {
 
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--input-bg-color);
-  color: var(--button-color);
+  color: var(--button-txt-color);
   text-decoration: none;
 
   /* adds spacing to the button  */
@@ -92,6 +92,7 @@ input[type="submit"]:focus {
 
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
+  color: var(--button-txt-color);
 }
 
 .navigation-list__item--active {
