@@ -1,80 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Bhavani Penugonda</title>
-    <link rel= "stylesheet" text="text/css" href="./css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" text="text/css" href="./css/styles.css">
-    <link rel= "shortcut icon" href="./img/portfolio-icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-<body>   
-    <header class="page-header">
-    
-        <!-- Portfolio logo that contains name Bhavani-->
-        <img src="./img/portfolio-logo.png"  class="page-header__item" alt="logo of me">
-
-				<!--Navigation items on the HOme page-->
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" class="navigation-list__item navigation-list__item--active" role="menuitem">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" class="navigation-list__item" role="menuitem">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-                  </li>
-                
-                <li role="presentation">
-                    <a href="contact.html" class="navigation-list__item" role="menuitem">contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    <div class="about-description">
-     <h1>About</h1>
-     <p> Hello. My name is Bhavani Penugonda.</p>
-		 <p>I am based in Frankfurt, with a background in software testing. After taking a career break to raise my daughter, I am eager to reenter the workforce with a new focus on web development. I am passionate about coding and have been enhancing my skills in HTML, CSS, JavaScript, and various web development frameworks. I am dedicated to leveraging my analytical and problem-solving abilities from my testing experience to excel in this new career path.</p>
-     <br>
-		 <!--Table for skills-->  
-		 <table class="skills-table">
-            <thead>
-                <tr>
-                    <th>Skills</th>
-                    <th>Years of Experience</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Manual Testing</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Automation Testing</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>HTML,CSS</td>
-                    <td>No Experience</td>
-                </tr>
-            </tbody>
-        </table>
-    <br>
-    <a href="#" class="cv-button" download>Download CV</a>
-    <br>
-
-		<!--svg code for the illustration image-->
-    <!-- <img src="./img/Illustration-html.svg"  alt="picture with web development"/> -->
-
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100%" viewBox="0 0 1920 1280" enable-background="new 0 0 1920 1280" xml:space="preserve">
 <path fill="#FFFFFF" opacity="1.000000" stroke="none" 
@@ -1439,7 +1362,7 @@ M270.087463,322.265289
 	C271.033142,319.663605 270.985321,320.081360 270.635559,320.940552 
 	C270.144928,321.646637 270.062866,321.941071 270.087463,322.265289 
 z"/>
-<path fill="#3050A4" class="html-icon" opacity="1.000000" stroke="none" 
+<path fill="#3050A4" opacity="1.000000" stroke="none" 
 	d="
 M514.023621,762.908569 
 	C514.404541,763.268860 514.785461,763.629150 515.531006,764.360107 
@@ -4700,7 +4623,7 @@ M340.381897,371.915100
 	C350.748199,370.342194 349.179260,371.681396 348.234650,371.800171 
 	C345.798431,372.106567 343.298859,371.909241 340.381897,371.915100 
 z"/>
-<path fill="#3352A5" class="css-icon" opacity="1.000000" stroke="none" 
+<path fill="#3352A5" opacity="1.000000" stroke="none" 
 	d="
 M1191.906982,502.000000 
 	C1191.905640,512.155762 1191.949829,521.811768 1191.886963,531.467102 
@@ -6299,23 +6222,3 @@ M1117.839233,762.173096
 	C1111.677002,777.205078 1111.203979,768.899597 1117.839233,762.173096 
 z"/>
 </svg>
-    </div>
-    </main>
-
-		<!--contact details of me-->
-    <footer class="page_footer">
-         
-        <p> Find me on</p>
-        <div class="social-media">
-        <!-- Github logo-->
-        <img src="./img/github_icon.svg" alt="logo of github" />
-        <!-- twitter logo-->
-        <img src="./img/twitter_icon.svg" alt="logo of twitter" />
-        <!-- linkedin logo-->
-        <img src="./img/linkedin_icon.svg" alt="logo of linkedin"/>
-        </div>
-    
-</footer>
-    <script src="./js/tota11y.min.js"></script>
-    </body>
-</html>

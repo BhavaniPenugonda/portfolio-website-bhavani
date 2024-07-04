@@ -181,11 +181,11 @@ input[type="submit"]:focus {
 
 @keyframes color-change {
   from {
-    fill: #fab755;
+    fill: #3050a4;
   }
 
   to {
-    fill: #ee3953;
+    fill: #19460f;
   }
 }
 
@@ -198,20 +198,20 @@ input[type="submit"]:focus {
   animation-timing-function: linear;
 }
 
-@keyframes cloud-move {
+@keyframes moveUp {
   from {
-    transform: translate(0, 50px);
+    transform: translateY(0);
   }
 
   to {
-    transform: translate(200px, 50px);
+    transform: translateY(-100px);
   }
 }
 
 /* animates the cloud in linear */
-.cloud {
+.css-icon {
   animation-duration: 30s;
-  animation-name: cloud-move;
+  animation-name: moveUp;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
