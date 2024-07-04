@@ -172,7 +172,8 @@ input[type="submit"]:focus {
 /* Makes the content in aboutpage,workpage,contactpage to the center */
 .about-description,
 .work-profile,
-.contact-details {
+.contact-details,
+.skills-table {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
