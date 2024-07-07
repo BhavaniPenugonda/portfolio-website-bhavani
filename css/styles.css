@@ -179,6 +179,19 @@ input[type="submit"]:focus {
   margin: 0 auto;
 }
 
+.user-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-contact label {
+  width: 150px; /* Adjust the width  */
+  margin-right: 20px;
+  text-align: right;
+}
+
 @keyframes color-change {
   from {
     fill: #3050a4;
