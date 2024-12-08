@@ -153,12 +153,12 @@ input[type="submit"]:focus {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-
+/*
 .grid__item:last-child {
   grid-column: 3 / 3;
   grid-row: 1 / 3;
 }
-
+*/
 /* Adds background color to  grid items and makes the text to center in work page */
 .grid__item {
   padding: 20px;
