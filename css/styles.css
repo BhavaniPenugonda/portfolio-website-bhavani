@@ -150,20 +150,21 @@ input[type="submit"]:focus {
 /* Displays the  grid in work page */
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 20px;
+  justify-content: center;
 }
 
 /* Adds background color to  grid items and makes the text to center in work page */
 .grid__item {
+  width: 600px;
   padding: 20px;
   text-align: center;
   border: 1px solid #ccc;
   background-color: var(--grid-item-bgcolor);
   transition: transform 0.3s, background-color 0.3s;
 }
-
 
 /* changes the pointer to hand pointer when  hovered over grid item in work page */
 .grid__item:hover {
@@ -192,6 +193,22 @@ input[type="submit"]:focus {
   width: 150px; /* Adjust the width  */
   margin-right: 20px;
   text-align: right;
+}
+
+.project-images {
+  display: inline-block;
+  align-items: center; /* This centers the image both vertically and horizontally */
+}
+
+/* Image styling */
+.project-images img {
+  display: inline-block;
+  width: 800px;
+  height: auto;
+  max-width: 100%; /* Ensures that the image does not exceed the container width */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  margin-top: 10px; /* Optional margin to give some spacing between text and image */
 }
 
 @keyframes color-change {
