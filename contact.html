@@ -10,8 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
     <link rel="stylesheet"  href="./css/styles.css">
     <link rel= "shortcut icon" href="./img/portfolio-icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 </head>
 <body>   
     <header class="page-header">
@@ -40,47 +38,52 @@
 
     <!--Contact details of me-->
     <main class="contact-details">
-        <h1> Contact</h1>
-        <div>
-            <br> 
-            Tel <a href="tel:+49 15785103692">+49 15785103692</a><br>
-            Skype <a href="skype:masettybhavani">masettybhavani</a><br>
-            <a href="mailto:bhavani0202@gmail.com">MailID: bhavani0202@gmail.com</a><br>
-            <a href="bhavani0202@gmail.com">Contact me</a>
-            
+     <h1>Let's Connect </h1>
+     <div class="contact-info">
+        <div class="user-contact">
+          <label class="standard-label">Telephone:</label>
+          <a href="tel:+4915785103692" class="contact-value">+49 15785103692</a>
         </div>
-        <h1>Your Details</h1>
-        <div>
+        <div class="user-contact">
+          <label class="standard-label">Email:</label>
+          <a href="mailto:bhavani0202@gmail.com" class="contact-value">bhavani0202@gmail.com</a>
+        </div>
+     </div>
+        <h2>Your Details</h2>
+        
             <form action="" method="post" id="contact-form" >
                 <div class="user-contact">
-                <label class="standard-label" for="user-email">Email:</label>
-                <input type="email" id="user-email"  required>
+                  <label class="standard-label" for="user-email">Email:</label>
+                  <input type="email" id="user-email" name="email" required placeholder="Your email address" />
                 </div>
                 <div class="user-contact">
-                <label class="standard-label" for="user-tel">Tel:</label>
-                <input type="tel" id="user-tel">
+                  <label class="standard-label" for="user-tel">Telephone:</label>
+                  <input type="tel" id="user-tel" name="tel" placeholder="Your phone number (optional)" />
                 </div>
                 <div class="user-contact">
-                <label class="standard-class" for="user-message">Your Message:</label>
-                <textarea max length="240" id="user-message" required ></textarea>
+                  <label class="standard-label" for="user-message">Your Message:</label>
+                  <textarea id="user-message" name="message" maxlength="240" required placeholder="Write your message here (max 240 chars)"></textarea>
                 </div>
-                <input type="submit" value="send message">
+                
+                <button type="submit" class="submit-btn">Send Message</button>
             </form>
-        </div>
+        
     </main>
     <br>
     <!--Footer of Page-->
     <footer class="page_footer">
         
-        <p> Find me on</p>
-        <div class="social-media">
-            <!-- Github logo-->
-            <img src="./img/github_icon.svg" alt="logo of github">
-            <!-- twitter logo-->
-            <img src="./img/twitter_icon.svg" alt="logo of twitter">
-            <!-- linkedin logo-->
-            <img src="./img/linkedin_icon.svg" alt="logo of linkedin">
-        </div>
+    <p> Find me on</p>
+    <div class="social-media">
+    <!-- Github logo-->
+    <a href="https://github.com/bhavanipenugonda" target="_blank">
+    <img src="./img/github_icon.svg" alt="GitHub logo linking to Bhavani GitHub profile">
+    </a>
+    <!-- Linkedin logo-->
+    <a href="https://www.linkedin.com/in/bhavanipenugonda" target="_blank">
+    <img src="./img/linkedin_icon.svg" alt="LinkedIn logo linking to Bhavani LinkedIn profile"> 
+    </a>
+    </div>
         
     </footer>
     <script src="js/tota11y.min.js"></script>
