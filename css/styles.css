@@ -266,15 +266,17 @@ input[type="submit"]:focus {
 }
 
 .project-images {
-  display: inline-block;
-  align-items: center; /* This centers the image both vertically and horizontally */
+  display: flex;
+  flex-wrap: wrap;               /* Allows images to wrap on smaller screens */
+  justify-content: center;       /* Centers images horizontally */
+  gap: 16px;                     /* Adds spacing between images */
+  margin-top: 10px;              
 }
 
 /* Image styling */
 .project-images img {
-  display: inline-block;
-  width: 700px;
-  max-height: 700px;
+  display: block;
+  height: auto;
   max-width: 100%; /* Ensures that the image does not exceed the container width */
   border-radius: 8px; /* Optional rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
@@ -289,8 +291,7 @@ input[type="submit"]:focus {
 /* Makes the content in aboutpage,workpage,contactpage to the center */
 
 .work-profile,
-.contact-details,
-.skills-table {
+.contact-details {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
