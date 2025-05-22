@@ -21,6 +21,12 @@
   --body-color: #333;
 }
 
+strong {
+  color: black;
+  font-weight: bold;
+}
+
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
